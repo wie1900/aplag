@@ -9,7 +9,8 @@ use Aplag\Domain\PortsIn\CompServiceInterface;
 class AplagController extends Controller
 {
     public function __construct(
-        public CompServiceInterface $compServiceInterface){}
+        public CompServiceInterface $compServiceInterface
+    ) {}
     
     public function index()
     {

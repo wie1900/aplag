@@ -47,7 +47,7 @@ Finally, the name _Aplag_ is added to namespaces and paths under 'psr-4' in _`co
 ### Hexagonal architecture
 Further, the app is Hexagonal-structured:
 - `App` - for http related controllers, requests, views requiring access to the application
-- `Domain` - DTOs, domain entities/models, services and interfaces (primary/secondary ports, here `PortsIn` and `PortsOut`)
+- `Domain` - DTOs, domain entities, services, interfaces (prim./sec. ports, here `PortsIn` and `PortsOut`)
 - `Infra` - implementations of domain secondary ports
 ```
 src
